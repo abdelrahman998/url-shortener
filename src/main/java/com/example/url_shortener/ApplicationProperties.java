@@ -11,7 +11,7 @@ import org.springframework.validation.annotation.Validated;
 @Validated
 public record ApplicationProperties(
         @NotBlank
-        @DefaultValue("http://localhost:8080")
+        @DefaultValue("http://localhost:8085")
         String baseUrl,
         @DefaultValue("30")
         @Min(1)
