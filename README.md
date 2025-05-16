@@ -60,3 +60,22 @@ Start the application using Docker Compose:
 docker-compose up --build
 ```
 This will start the application and a PostgreSQL database container.
+
+## Project Structure
+- `src/main/java/com/example/url_shortener`: Main application code.
+- `src/main/resources`: Configuration files and templates.
+- `db/migration`: SQL migration scripts.
+
+## Technologies Used
+- **Java 17**
+- **Spring Boot**
+- **Spring Data JPA**
+- **Maven**
+- **PostgreSQL**
+- **FlywayDb Migrations**
+- **Docker**
+- **Thymeleaf** (for templates)
+- **Spring Security**
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
