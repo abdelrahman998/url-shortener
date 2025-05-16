@@ -36,3 +36,27 @@ Before running the application, ensure you have the following installed:
 ```bash
 git clone https://github.com/abdelrahman998/url-shortener.git
 cd url-shortener
+
+### 2. Configure the Application
+Update the `src/main/resources/application.properties` file with your database configuration:
+```ini
+spring.datasource.url=jdbc:postgresql://db:5432/url_shortener
+spring.datasource.username=your_db_username
+spring.datasource.password=your_db_password
+spring.jpa.hibernate.ddl-auto=update
+```
+
+### 3. Build the Application
+Run the following command to build the application:
+```bash
+mvn clean install
+```
+
+### 4. Run the Application with Docker
+Ensure the `docker-compose.yml` file is present in the project root.
+
+Start the application using Docker Compose:
+```bash
+docker-compose up --build
+```
+This will start the application and a PostgreSQL database container.
