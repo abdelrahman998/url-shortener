@@ -9,7 +9,6 @@ URL Shortener is a service that shortens a long URL into a short URL which is ea
    - [Configure the Application](#2-configure-the-application)
    - [Build the Application](#3-build-the-application)
    - [Run the Application with Docker](#4-run-the-application-with-docker)
-   - [Access the Application](#5-access-the-application)
 4. [Project Structure](#project-structure)
 5. [Technologies Used](#technologies-used)
 6. [License](#license)
@@ -36,6 +35,7 @@ Before running the application, ensure you have the following installed:
 ```bash
 git clone https://github.com/abdelrahman998/url-shortener.git
 cd url-shortener
+```
 
 ### 2. Configure the Application
 Update the `src/main/resources/application.properties` file with your database configuration:
