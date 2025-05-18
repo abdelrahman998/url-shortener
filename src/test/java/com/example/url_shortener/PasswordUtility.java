@@ -10,6 +10,7 @@ public class PasswordUtility {
         PasswordEncoder encoder = new BCryptPasswordEncoder();
         System.out.println(encoder.encode("secret"));
         System.out.println(encoder.encode("admin"));
+        System.out.println(encoder.encode("ahmed"));
 
     }
 }
